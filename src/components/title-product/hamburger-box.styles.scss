@@ -1,0 +1,75 @@
+.hamburger-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    .hamburger-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 50rem;
+        height: 50rem;
+        background-color: rgba(21, 92, 92, 0.548);
+        border-radius: 5rem;
+        // filter: blur(5px);
+        .hamburger-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 90%;
+            overflow: auto;
+            filter: blur(0px);
+            z-index: 100;
+            .hamburger-top{
+                width: 60%;
+                height: 12rem;
+                background-color: orange;
+                margin-bottom: .3rem;
+                border-radius: 37% 39% 12% 10% / 53% 54% 24% 24%  ;
+            }
+            .hamburger-bottom{
+                width: 60%;
+                height: 4rem;
+                background-color: orange;
+                border-radius: 20% 20% 12% 10% / 19% 19% 81% 81%  ;
+            }
+            .meatBox{
+                width: 60%;
+                height: 2.8rem;
+                background-color: #5f3e0de3;
+                border-radius: 20% 20% 12% 10% / 64% 64% 64% 64%  ;
+                margin-bottom: .1rem;
+            }
+            .collardBox{
+                width: 55%;
+                height: 1rem;
+                background-color: #2fc00be3;
+                border-radius: 20% 20% 12% 10% / 64% 64% 64% 64%  ;
+                margin-bottom: .1rem;
+            }
+            .tomatoBox{
+                width: 60%;
+                height: 1.6rem;
+                background-color: #c93116e3;
+                margin-bottom: .1rem;
+            }
+            .cucumberBox{
+                width: 45%;
+                height: 1.6rem;
+                border: 1px 0 solid white;
+                background-color: #5be00ee3;
+                margin-bottom: .1rem;
+            }
+            .onionBox{
+                width: 55%;
+                height: 1rem;
+                background-color: #d5e4cde3;
+                margin-bottom: .1rem;
+            }
+        }
+    }
+}
