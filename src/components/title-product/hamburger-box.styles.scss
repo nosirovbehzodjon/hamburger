@@ -11,7 +11,7 @@
         justify-content: space-evenly;
         width: 50rem;
         height: 50rem;
-        background-color: rgba(21, 92, 92, 0.548);
+        background:linear-gradient(45deg , #1b5043ce,#cc1212c7);
         border-radius: 5rem;
         // filter: blur(5px);
         .hamburger-container{
@@ -30,6 +30,59 @@
                 background-color: orange;
                 margin-bottom: .3rem;
                 border-radius: 37% 39% 12% 10% / 53% 54% 24% 24%  ;
+                position: relative;
+                .sx-1{
+                    position: absolute;
+                    height: 10px;
+                    width: 30px;
+                    border-radius: 100%;
+                    background-color: white;
+                }
+                .s-1{
+                    top: 5rem;
+                    right: 1rem;
+                    transform: rotateZ(-45deg);
+                }
+                .s-2{
+                    top: 6rem;
+                    right: 3rem;
+                    transform: rotateZ(85deg);
+                }
+                .s-3{
+                    top: 4rem;
+                    right: 18rem;
+                    transform: rotateZ(-120deg);
+                }
+                .s-4{
+                    top: 5rem;
+                    right: 16rem;
+                    transform: rotateZ(-5deg);
+                }
+                .s-5{
+                    top: 6rem;
+                    right: 14rem;
+                    transform: rotateZ(-85deg);
+                }
+                .s-6{
+                    top: 4rem;
+                    left: 2rem; 
+                    transform: rotateZ(75deg);
+                }
+                .s-7{
+                    top: 6rem;
+                    left: 4rem;
+                    transform: rotateZ(-65deg);
+                }
+                .s-8{
+                    top: 7rem;
+                    right: 2rem;
+                    transform: rotateZ(55deg);
+                }
+                .s-9{
+                    top: 5rem;
+                    right: 6rem;
+                    transform: rotateZ(45deg);
+                }
             }
             .hamburger-bottom{
                 width: 60%;

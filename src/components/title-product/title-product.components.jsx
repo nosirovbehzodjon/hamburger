@@ -128,7 +128,17 @@ class TitleProduct extends React.Component {
         <section className="hamburger-box">
           <main className="hamburger-item">
             <aside className="hamburger-container">
-              <div className="hamburger-top"></div>
+              <div className="hamburger-top">
+                <span className="sx-1 s-1"></span>
+                <span className="sx-1 s-2"></span>
+                <span className="sx-1 s-3"></span>
+                <span className="sx-1 s-4"></span>
+                <span className="sx-1 s-5"></span>
+                <span className="sx-1 s-6"></span>
+                <span className="sx-1 s-7"></span>
+                <span className="sx-1 s-8"></span>
+                <span className="sx-1 s-9"></span>
+              </div>
                 {this.HamburgerContent()}
               <div className="hamburger-bottom"></div>
             </aside>
