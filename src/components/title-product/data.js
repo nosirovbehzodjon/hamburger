@@ -1,6 +1,6 @@
 const DATA = [
   {
-    title: "Meat",
+    title: "Meatmmmmmmmmmm",
     price: 5.3,
     count: 5,
     id: 1,

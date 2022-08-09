@@ -9,8 +9,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        width: 50rem;
-        height: 50rem;
+        width: 38rem;
+        height: 38rem;
         background:linear-gradient(45deg , #1b5043ce,#cc1212c7);
         border-radius: 5rem;
         // filter: blur(5px);
@@ -26,7 +26,7 @@
             z-index: 100;
             .hamburger-top{
                 width: 60%;
-                height: 12rem;
+                height: 10rem;
                 background-color: orange;
                 margin-bottom: .3rem;
                 border-radius: 37% 39% 12% 10% / 53% 54% 24% 24%  ;
